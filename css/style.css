@@ -1,0 +1,120 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#header {
+  background-image: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+  padding: 20px;
+}
+
+.imgg {
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 75px;
+  background-color: #144a9e;
+  color: #ffffff;
+  border: 1.5px solid #144a9e;
+  border-radius: 30px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-top: 25px;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.colored {
+  background-color: #E9FCFF;
+}
+.cta {
+  background-color: #e7eaeb;
+}
+
+.ctaa {
+  margin-bottom: 25px;
+}
+
+.mred {
+  color: #B80C09;
+}
+
+.bordd {
+  border: 2px solid black;
+}
+
+.tit {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.titl {
+  font-weight: bold;
+}
+
+
+.d-flex {
+  border: 2px solid #000;
+}
+
+.d-flex picture {
+  width: 300px;
+  flex: auto;
+  cursor: pointer;
+  border: 2px solid #000;
+
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+}
+
+.padd20 {
+  padding: 20px;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {}
+
+/* Medium devices (tablets, 768px and up) 
+The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+@media (max-width: 950px) {}
